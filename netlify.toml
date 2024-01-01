@@ -7,3 +7,6 @@
   to = "/index.html"
   status = 200
   force = true
+
+[functions]
+  directory = "netlify/functions"
