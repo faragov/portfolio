@@ -14,9 +14,9 @@ export class PortfolioComponent implements OnInit {
 
   wow: any;
 
-  ngOnInit() {
-    this.wow = new WOW();
-    this.wow.init();
+  ngOnInit(): void {
+    const wow = new WOW();
+    wow.init();
   
   }
 }
