@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import * as _ from "lodash";
+_.padStart("Hello TypeScript!", 20, " ");
 
 @Component({
   selector: 'app-portfolio',
