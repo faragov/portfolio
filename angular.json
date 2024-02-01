@@ -31,10 +31,9 @@
           "configurations": {
             "production": {
               "fileReplacements": [
-                {
-                  "replace": "node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/webpack-configs/browser.js"
 
-                }
+
+                
               ],
               "budgets": [
                 {
@@ -82,7 +81,7 @@
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "styles": ["src/styles.css"]
 
           }
         }
