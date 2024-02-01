@@ -26,15 +26,10 @@
 
               "src/styles.css"
             ]
-
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
 
-
-                
-              ],
               "budgets": [
                 {
                   "type": "initial",
